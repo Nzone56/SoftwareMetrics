@@ -1,0 +1,25 @@
+function main(){
+
+    var a =5;
+    let b = 4;
+    let y = 2 + 4 ;
+    let x = "e";
+    let s = r;
+
+    const pi=3.1415;
+    let c,d;
+    for(  i=0 ; i <5 ; i++){
+    if (i% 2 == 0)
+        {
+        console.log(a);
+        }
+    else{
+        console.log(c+d)
+    }
+    }
+    for( let i = 0; i<5 ; i++){
+
+    }
+
+
+}

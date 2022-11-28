@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx">  </script>
+    <div class="title">
+      <h1> METRICS CALCULATOR </h1>
+    </div>
+    <div class="container">
+        <div class="input">
+          <h2 for="codeInput">INPUT</h2>
+          <textarea spellcheck="false" id="codeInput" rows=50 cols="80" placeholder="El códgio va aquí "></textarea>
+        </div>
+        <div class="buttons">
+            <button id="getBigOBtn"> Big O Notation</button>
+            <button id="getAST"> AST </button>
+            <button id="getCC"> Cyclomatic Complexity </button>
+            <button id="linter" > Linter </button>
+            
+        </div>
+        <div class="output">
+            <h2> OUTPUT </h2>
+            <h2 class="bigOResult" id="resultShow"></h2>
+            <img id='img' src= imageshown >
+            <pre class="astResult" id="astShow"></pre>
+            <h2 class="CCResult" id="ccShow"></h2>
+            <h2 class="linterResult" id="linterShow"></h2>
+        </div>
+    </div>
+  
+</body>
+<script src="/src/BigOCalculator/bigO.js"></script>
+<script src="/src/BigOCalculator/index.js"></script>
+<script type="module" src="/src/Linter/linter.js"></script>
+<script src="astBrowserify.js"></script>
+  </body>
+</html>

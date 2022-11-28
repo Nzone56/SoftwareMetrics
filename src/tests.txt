@@ -1,0 +1,43 @@
+// Example 1: Basic O(1) notation 
+
+function plusTwo (N){
+    return N+2; 
+}
+
+// Example 2: Basic O(logN) notation 
+
+function getPowNumbers (N){
+    for(let i = 1; i < N; i *= 2) {
+        console.log(i)
+    }
+}
+
+// Example 3: Basic O(N) notation
+function getNumbers (N){
+    for(let i = 0; i < N; i++) {
+        console.log(i); 
+    }
+}
+
+// Example 4: Basic O(N^2) notation 
+
+function plus(a,b){
+for(let i = a; i < N; i++) {
+    for(let j = b; j < N; j++) {
+        console.log(i + j); 
+    }
+}
+}
+
+// Example 5: Basic O(N^3) notation 
+function plus(a,b,c){
+for(let i = a; i < N; i++) {
+    for(let j = b; j < N; j++) {
+        for(let k= a; k < N; k++) {
+        console.log(i + j+k); 
+     }
+}
+}
+
+
+
